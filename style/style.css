@@ -1,0 +1,76 @@
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing : border-box;
+}
+body{
+	font-family : arial;
+	font-size : 18px;
+}
+h1,h2{
+	color : #166722
+}
+
+h1{
+	font-size : 40px;
+	margin-bottom : 20px;
+}
+
+h2{
+	font-size : 25 px;
+	margin-bottom: 10px;
+}
+.text-para {
+	text-align : justify;
+	margin-bottom : 20px;
+}
+
+/* Layouts */
+.main{
+	width : 1140px;
+	margin : 20px auto 0 auto;
+}
+
+.main-box {
+	width : 75%;
+	float : left;
+	padding-right : 30px;
+	position: relative;
+}
+
+.other-box {
+	width : 25%;
+	float : left;
+}
+
+.other {
+	margin-bottom : 40px;
+}
+
+.clear-fix {
+	content : '';
+	clear : both;
+}
+
+.author-img {
+	border-radius : 50%;
+	float : left;
+}
+
+.author-box {
+	border-top : 1px solid #434040;
+	padding-top : 5px;
+}
+
+.author-text {
+	font-size : 22px;
+	float : left;
+	margin-top : 10px;
+}
+
+.date {
+	position : absolute;
+	text-align : right;
+	top : 20px;
+	right : 30px;
+}
